@@ -1,0 +1,7 @@
+{"timestamp": "2026-01-22T21:35:44.166104", "rule": "Brute Force Attempt", "severity": "HIGH", "source_ip": "192.168.1.50", "details": "Detected 3 failed login attempts from 192.168.1.50"}
+{"timestamp": "2026-01-22T21:35:44.167096", "rule": "Port Scan Detected", "severity": "MEDIUM", "source_ip": "192.168.1.100", "details": "Port scan activity detected from 192.168.1.100"}
+{"timestamp": "2026-01-22T21:35:44.168071", "rule": "Suspicious IP Activity", "severity": "CRITICAL", "source_ip": "192.168.1.100", "details": "Activity detected from blacklisted IP: 192.168.1.100"}
+{"timestamp": "2026-01-22T21:36:46.468686", "rule": "Brute Force Attempt", "severity": "HIGH", "source_ip": "192.168.1.200", "details": "Detected 1 failed login attempts from 192.168.1.200"}
+{"timestamp": "2026-01-22T21:50:40.772617", "rule": "Brute Force Attempt", "severity": "HIGH", "source_ip": "192.168.1.50", "details": "Detected 3 failed login attempts from 192.168.1.50"}
+{"timestamp": "2026-01-22T21:50:40.774578", "rule": "Port Scan Detected", "severity": "MEDIUM", "source_ip": "192.168.1.100", "details": "Port scan activity detected from 192.168.1.100"}
+{"timestamp": "2026-01-22T21:50:40.780438", "rule": "Suspicious IP Activity", "severity": "CRITICAL", "source_ip": "192.168.1.100", "details": "Activity detected from blacklisted IP: 192.168.1.100"}

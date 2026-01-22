@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2023-10-27 11:00:00",
+        "source_ip": "192.168.1.200",
+        "destination_ip": "192.168.1.1",
+        "event_type": "login",
+        "user": "root",
+        "status": "failed"
+    },
+    {
+        "timestamp": "2023-10-27 11:00:05",
+        "source_ip": "192.168.1.200",
+        "destination_ip": "192.168.1.1",
+        "event_type": "login",
+        "user": "root",
+        "status": "success"
+    }
+]
