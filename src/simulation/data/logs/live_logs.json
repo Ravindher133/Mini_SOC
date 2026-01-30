@@ -4102,5 +4102,1117 @@
     "action": "CONNECTION_ATTEMPT",
     "status": "REFUSED",
     "endpoint": "port:8080"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:01.805521",
+    "ip": "203.0.113.55",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:21"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:22"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:23"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:80"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:443"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:3306"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:02.835135",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:8080"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:03.876002",
+    "ip": "10.0.0.5",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:04.907208",
+    "ip": "192.168.1.10",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:05.932034",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:06.974017",
+    "ip": "192.168.1.10",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:07.986793",
+    "ip": "203.0.113.55",
+    "user": "service_account",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:09.023516",
+    "ip": "192.168.1.20",
+    "user": "alice",
+    "action": "PAGE_VIEW",
+    "status": 404,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:10.049781",
+    "ip": "192.168.1.20",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:11.094323",
+    "ip": "203.0.113.55",
+    "user": "bob",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:12.135979",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:12.135979",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:12.135979",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:12.135979",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:12.136951",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:13.163781",
+    "ip": "192.168.1.11",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:14.189149",
+    "ip": "192.168.1.10",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:15.230220",
+    "ip": "192.168.1.11",
+    "user": "guest",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:16.260849",
+    "ip": "192.168.1.10",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:17.289356",
+    "ip": "203.0.113.55",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:18.314035",
+    "ip": "185.100.100.100",
+    "user": "service_account",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:21"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:22"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:23"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:80"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:443"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:3306"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:19.334812",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:8080"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:20.358554",
+    "ip": "185.100.100.100",
+    "user": "bob",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:21.379559",
+    "ip": "45.23.12.99",
+    "user": "guest",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:22.410694",
+    "ip": "10.0.0.5",
+    "user": "guest",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:23.437350",
+    "ip": "192.168.1.10",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:24.469248",
+    "ip": "10.0.0.6",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:25.513883",
+    "ip": "45.23.12.99",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:26.545469",
+    "ip": "185.100.100.100",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:27.571543",
+    "ip": "192.168.1.10",
+    "user": "bob",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:28.596318",
+    "ip": "10.0.0.6",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:29.621450",
+    "ip": "10.0.0.6",
+    "user": "bob",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:30.648137",
+    "ip": "203.0.113.55",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:31.672235",
+    "ip": "185.100.100.100",
+    "user": "guest",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:32.689768",
+    "ip": "192.168.1.11",
+    "user": "guest",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:33.714257",
+    "ip": "192.168.1.20",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:21"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:22"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:23"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:80"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:443"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:3306"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:34.734796",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:8080"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:35.764147",
+    "ip": "192.168.1.10",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:36.801461",
+    "ip": "192.168.1.12",
+    "user": "alice",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:37.827976",
+    "ip": "10.0.0.5",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:38.846328",
+    "ip": "192.168.1.11",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:39.871294",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:39.871294",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:39.871294",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:39.871294",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:39.871294",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:40.896961",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:41.916450",
+    "ip": "10.0.0.6",
+    "user": "service_account",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:42.939171",
+    "ip": "45.23.12.99",
+    "user": "alice",
+    "action": "PAGE_VIEW",
+    "status": 404,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:43.962550",
+    "ip": "192.168.1.20",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:44.983133",
+    "ip": "203.0.113.55",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:46.002135",
+    "ip": "192.168.1.10",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:47.036374",
+    "ip": "45.23.12.99",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:48.070470",
+    "ip": "192.168.1.20",
+    "user": "service_account",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:49.102382",
+    "ip": "192.168.1.10",
+    "user": "guest",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:50.138465",
+    "ip": "203.0.113.55",
+    "user": "bob",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:51.179566",
+    "ip": "192.168.1.20",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:52.268722",
+    "ip": "192.168.1.11",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:53.302357",
+    "ip": "192.168.1.12",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:54.331383",
+    "ip": "192.168.1.10",
+    "user": "service_account",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:55.367764",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:55.367764",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:55.367764",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:55.367764",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:55.367764",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:56.395594",
+    "ip": "192.168.1.11",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:57.421758",
+    "ip": "45.23.12.99",
+    "user": "guest",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:58.455336",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:28:59.482612",
+    "ip": "192.168.1.20",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:00.508898",
+    "ip": "192.168.1.12",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:01.534571",
+    "ip": "185.100.100.100",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:02.561859",
+    "ip": "192.168.1.20",
+    "user": "guest",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:03.629328",
+    "ip": "10.0.0.6",
+    "user": "admin",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:04.667269",
+    "ip": "203.0.113.55",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/home"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:05.713476",
+    "ip": "192.168.1.10",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:06.755248",
+    "ip": "192.168.1.12",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:07.837474",
+    "ip": "203.0.113.55",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:08.871873",
+    "ip": "185.100.100.100",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:09.901672",
+    "ip": "192.168.1.11",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:10.931837",
+    "ip": "203.0.113.55",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 404,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:11.994918",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:11.994918",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:11.994918",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:11.994918",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:11.994918",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:13.031132",
+    "ip": "10.0.0.5",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:14.086336",
+    "ip": "185.100.100.100",
+    "user": "bob",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:15.196206",
+    "ip": "192.168.1.20",
+    "user": "bob",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/contact"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:16.231984",
+    "ip": "192.168.1.20",
+    "user": "service_account",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:17.262216",
+    "ip": "10.0.0.5",
+    "user": "service_account",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:21"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:22"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:23"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:80"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:443"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:3306"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:18.290913",
+    "ip": "45.23.12.99",
+    "user": "-",
+    "action": "CONNECTION_ATTEMPT",
+    "status": "REFUSED",
+    "endpoint": "port:8080"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:19.317540",
+    "ip": "192.168.1.11",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:20.337835",
+    "ip": "10.0.0.6",
+    "user": "guest",
+    "action": "LOGIN_SUCCESS",
+    "status": 404,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:21.368272",
+    "ip": "192.168.1.10",
+    "user": "alice",
+    "action": "PAGE_VIEW",
+    "status": 404,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:22.389068",
+    "ip": "10.0.0.6",
+    "user": "service_account",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:23.417866",
+    "ip": "192.168.1.20",
+    "user": "service_account",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/admin"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:24.449477",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:24.449477",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:24.449477",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:24.449477",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:24.449477",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:25.468775",
+    "ip": "192.168.1.11",
+    "user": "bob",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/api/data"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:26.492044",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:26.492044",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:26.492044",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:26.492044",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:26.492044",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:27.515248",
+    "ip": "203.0.113.55",
+    "user": "alice",
+    "action": "API_CALL",
+    "status": 200,
+    "endpoint": "/about"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:28.546290",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:28.546290",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:28.546290",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:28.546290",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:28.546290",
+    "ip": "185.100.100.100",
+    "user": "admin",
+    "action": "LOGIN_FAILED",
+    "status": 401,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:29.582980",
+    "ip": "192.168.1.12",
+    "user": "alice",
+    "action": "LOGIN_SUCCESS",
+    "status": 200,
+    "endpoint": "/login"
+  },
+  {
+    "timestamp": "2026-01-30T19:29:30.622522",
+    "ip": "10.0.0.5",
+    "user": "admin",
+    "action": "PAGE_VIEW",
+    "status": 200,
+    "endpoint": "/contact"
   }
 ]
