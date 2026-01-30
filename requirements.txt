@@ -1,2 +1,2 @@
-pandas
-pytest
+flask
+flask-cors

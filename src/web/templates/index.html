@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini SOC | Live Monitor</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --danger: #ef4444;
+            --success: #22c55e;
+            --warning: #f59e0b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #334155;
+        }
+
+        h1 { margin: 0; font-size: 1.8rem; color: var(--accent); }
+        h2 { font-size: 1.2rem; margin-top: 0; color: var(--text-secondary); }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card .value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .card .label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .panel {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            height: 600px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .log-container, .alert-container {
+            flex: 1;
+            overflow-y: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9rem;
+        }
+
+        .log-entry {
+            padding: 8px;
+            border-bottom: 1px solid #334155;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .log-entry:hover { background-color: #334155; }
+        
+        .log-time { color: var(--text-secondary); font-size: 0.8rem; min-width: 150px; }
+        .log-action { font-weight: bold; min-width: 120px; }
+        .log-ip { color: var(--accent); min-width: 120px; }
+
+        .status-200 { color: var(--success); }
+        .status-401, .status-403 { color: var(--warning); }
+        .status-500 { color: var(--danger); }
+
+        .alert-card {
+            background-color: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid var(--danger);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .alert-title { color: var(--danger); font-weight: bold; display: block; margin-bottom: 5px; }
+        .alert-details { font-size: 0.8rem; color: var(--text-secondary); }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-color); }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Mini SOC Dashboard</h1>
+            <div style="font-size: 0.9rem; color: var(--text-secondary);">Live Incident Monitoring System</div>
+        </div>
+        <div id="status-indicator" style="color: var(--success);">● System Online</div>
+    </header>
+
+    <div class="stats-grid">
+        <div class="card">
+            <span class="value" id="stat-logs">0</span>
+            <span class="label">Total Logs</span>
+        </div>
+        <div class="card">
+            <span class="value" id="stat-alerts" style="color: var(--danger);">0</span>
+            <span class="label">Active Alerts</span>
+        </div>
+        <div class="card">
+            <span class="value" id="stat-bf">0</span>
+            <span class="label">Brute Force</span>
+        </div>
+        <div class="card">
+            <span class="value" id="stat-ps">0</span>
+            <span class="label">Port Scans</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Live Log Feed</h2>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Auto-refreshing</span>
+            </div>
+            <div class="log-container" id="log-feed">
+                <!-- Logs injected here -->
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header">
+                <h2 style="color: var(--danger);">Security Alerts</h2>
+            </div>
+            <div class="alert-container" id="alert-feed">
+                <!-- Alerts injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateStats() {
+            fetch('/api/stats')
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('stat-logs').innerText = data.total_logs;
+                    document.getElementById('stat-alerts').innerText = data.total_alerts;
+                    document.getElementById('stat-bf').innerText = data.brute_force_count;
+                    document.getElementById('stat-ps').innerText = data.port_scan_count;
+                });
+        }
+
+        function updateLogs() {
+            fetch('/api/logs')
+                .then(r => r.json())
+                .then(data => {
+                    const container = document.getElementById('log-feed');
+                    container.innerHTML = data.map(log => {
+                        const statusClass = log.status == 200 ? 'status-200' : 
+                                            (log.status == 401 || log.status == 403) ? 'status-401' : 
+                                            '';
+                        return `
+                            <div class="log-entry">
+                                <span class="log-time">${log.timestamp}</span>
+                                <span class="log-ip">${log.ip}</span>
+                                <span class="log-action ${statusClass}">${log.action}</span>
+                                <span>${log.endpoint}</span>
+                            </div>
+                        `;
+                    }).join('');
+                });
+        }
+
+        function updateAlerts() {
+            fetch('/api/alerts')
+                .then(r => r.json())
+                .then(data => {
+                    const container = document.getElementById('alert-feed');
+                    container.innerHTML = data.map(alert => `
+                        <div class="alert-card">
+                            <span class="alert-title">⚠ ${alert.rule}</span>
+                            <div class="alert-details">
+                                IP: ${alert.ip} <br>
+                                Severity: ${alert.severity} <br>
+                                Time: ${alert.timestamp}
+                            </div>
+                        </div>
+                    `).join('');
+                });
+        }
+
+        setInterval(() => {
+            updateStats();
+            updateLogs();
+            updateAlerts();
+        }, 2000);
+
+        // Initial load
+        updateStats();
+        updateLogs();
+        updateAlerts();
+    </script>
+</body>
+</html>
